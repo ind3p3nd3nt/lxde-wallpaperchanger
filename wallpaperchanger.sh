@@ -49,6 +49,8 @@ function updateCache {
 
 # set next picture as background
 function nextImage {
+	export DISPLAY=:3;
+	DISPLAY=:3;
 	if [ ${SHUFFLE} -gt 1 ]; then
 		RANDOM_INDEX=$(( $RANDOM % ${#IMAGES[@]} ))
 		pcmanfm -w "${IMAGES[$RANDOM_INDEX]}"
