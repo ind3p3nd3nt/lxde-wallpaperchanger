@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-IMAGE_DIR="/home/marco/Bilder/wallpaper"	# directory with wallpapers
-TIMEOUT=900									# timeout
+IMAGE_DIR="/root/Desktop/Wallpapers"	# directory with wallpapers
+TIMEOUT=30									# timeout
 SHUFFLE=1									# shuffling (0-2)
 LOGFILE="${HOME}/.wallpaperchanger.log"		# logfile
 
